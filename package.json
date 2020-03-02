@@ -1,0 +1,30 @@
+{
+  "name": "m-scene",
+  "version": "1.0.0",
+  "description": "基于koa2中间件的公众号/企业号/小程序等移动场景的服务封装",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wbenxin/m-scene.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wbenxin/m-scene/issues"
+  },
+  "homepage": "https://github.com/wbenxin/m-scene#readme",
+  "devDependencies": {
+    "mocha": "^7.1.0"
+  },
+  "dependencies": {
+    "co-wechat": "^2.4.0",
+    "co-wechat-api": "^3.10.0",
+    "co-wechat-oauth": "^2.0.1",
+    "koa": "^2.11.0",
+    "koa-router": "^8.0.8"
+  }
+}
