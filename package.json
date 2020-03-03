@@ -4,7 +4,7 @@
   "description": "基于koa2中间件的公众号/企业号/小程序等移动场景的服务封装",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --exit"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/wbenxin/m-scene#readme",
   "devDependencies": {
-    "mocha": "^7.1.0"
+    "mocha": "^7.1.0",
+    "supertest": "^4.0.2"
   },
   "dependencies": {
     "co-wechat": "^2.4.0",
