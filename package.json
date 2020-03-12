@@ -24,8 +24,10 @@
   "dependencies": {
     "co-wechat": "^2.4.0",
     "co-wechat-api": "^3.10.0",
+    "co-wechat-enterprise-api": "0.0.1",
     "co-wechat-oauth": "^2.0.1",
     "koa": "^2.11.0",
-    "koa-router": "^8.0.8"
+    "koa-router": "^8.0.8",
+    "lru-cache": "^5.1.1"
   }
 }
