@@ -4,7 +4,9 @@
   "description": "基于koa2中间件的公众号/企业号/小程序等移动场景的服务封装",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --exit"
+    "test": "mocha --exit",
+    "postversion": "npm publish",
+    "postpublish": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
