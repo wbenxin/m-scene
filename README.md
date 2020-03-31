@@ -24,11 +24,11 @@ const wechat = new Wechat(config);
 }
 ```
 
-会在ctx对象中增加wechat属性(Wechat的实例)
+在koa中引入此中间件后, 会在ctx对象中增加wechat属性(Wechat的实例)和openid属性(企业微信是userid)
 
 ```
 <koa_app>.use(async (ctx, next)=>{
-  let wechat_api = ctx.wechat.api;
+  let wechat_api = ctx.wechat.api(appid);
   // 获取微信服务器的IP地址
   let res = await wechat_api.getIp();
   ctx.body = res;
