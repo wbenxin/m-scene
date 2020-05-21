@@ -1,6 +1,6 @@
 {
   "name": "m-scene",
-  "version": "1.1.3",
+  "version": "1.2.0",
   "description": "基于koa2中间件的公众号/企业号/小程序等移动场景的服务封装",
   "main": "index.js",
   "scripts": {
