@@ -75,7 +75,7 @@ const wework = new Wework(config);
 ```
 <koa_app>.use(async (ctx, next)=>{
   let api = ctx.wework.api(appid, agentid);
-  // 获取微信服务器的IP地址
+  // 获取agent列表
   let res = await api.listAgent();
   ctx.body = res;
 });
